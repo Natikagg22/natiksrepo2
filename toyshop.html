@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WonderPlay - Unleash the Joy of Playtime!</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fefcfb;
+      color: #333;
+    }
+
+    /* Header */
+    header {
+      background-color: #ffda77;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .logo {
+      font-size: 2em;
+      font-weight: bold;
+      color: #ff6f61;
+    }
+
+    nav {
+      display: flex;
+      gap: 25px;
+      align-items: center;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 600;
+      font-size: 1em;
+    }
+
+    .cart-icon {
+      font-size: 1.2em;
+      cursor: pointer;
+    }
+
+    /* Hero */
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      background: #f8c8dc;
+      padding: 60px 20px;
+    }
+
+    .hero img {
+      max-width: 100%;
+      border-radius: 12px;
+      margin-bottom: 30px;
+    }
+
+    .hero h1 {
+      font-size: 2.8em;
+      color: #ff6f61;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+    }
+
+    .cta-button {
+      background-color: #00c9a7;
+      color: white;
+      padding: 14px 28px;
+      font-size: 1.1em;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .cta-button:hover {
+      background-color: #00a88b;
+    }
+
+    /* Featured Products */
+    .section {
+      padding: 60px 40px;
+      text-align: center;
+    }
+
+    .section h2 {
+      font-size: 2em;
+      margin-bottom: 30px;
+      color: #333;
+    }
+
+    .products {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    .product-card {
+      background-color: #fff8dc;
+      padding: 20px;
+      border-radius: 15px;
+      width: 220px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .product-card img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .product-card h3 {
+      margin: 10px 0 5px;
+    }
+
+    .product-card p {
+      font-weight: bold;
+      margin: 5px 0;
+    }
+
+    .add-to-cart {
+      margin-top: 10px;
+      background-color: #ff6f61;
+      color: white;
+      border: none;
+      padding: 10px 16px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .add-to-cart:hover {
+      background-color: #e85b50;
+    }
+
+    /* Benefits */
+    .benefits {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+      margin-top: 40px;
+    }
+
+    .benefit {
+      width: 200px;
+      text-align: center;
+    }
+
+    .benefit-icon {
+      font-size: 2.5em;
+      color: #ffb703;
+      margin-bottom: 10px;
+    }
+
+    /* Testimonials */
+    .testimonials {
+      background-color: #e0f7fa;
+      padding: 50px 20px;
+    }
+
+    .testimonial {
+      max-width: 600px;
+      margin: 0 auto 30px;
+      font-style: italic;
+    }
+
+    .testimonial-name {
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #ffda77;
+      padding: 20px;
+      text-align: center;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">WonderPlay</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Shop</a>
+      <a href="#">About Us</a>
+      <a href="#">Contact</a>
+      <div class="cart-icon">🛒</div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <img src="https://via.placeholder.com/800x300?text=Welcome+to+WonderPlay" alt="Hero Banner">
+    <h1>Unleash the Joy of Playtime!</h1>
+    <p>Count on these to get kids off your screens!</p>
+    <button class="cta-button">Shop Now</button>
+  </section>
+
+  <!-- Featured Products -->
+  <section class="section">
+    <h2>Featured Toys</h2>
+    <div class="products">
+      <div class="product-card">
+        <img src="https://via.placeholder.com/200x150?text=Toy+1" alt="Toy 1">
+        <h3>Rainbow Stacker</h3>
+        <p>$19.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/200x150?text=Toy+2" alt="Toy 2">
+        <h3>Adventure Puzzle</h3>
+        <p>$14.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/200x150?text=Toy+3" alt="Toy 3">
+        <h3>DIY Craft Box</h3>
+        <p>$22.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/200x150?text=Toy+4" alt="Toy 4">
+        <h3>Build-It Bot</h3>
+        <p>$29.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits Section -->
+  <section class="section">
+    <h2>Why Shop With Us?</h2>
+    <div class="benefits">
+      <div class="benefit">
+        <div class="benefit-icon">🚚</div>
+        <h4>Free Shipping</h4>
+        <p>On all orders over $50</p>
+      </div>
+      <div class="benefit">
+        <div class="benefit-icon">🧸</div>
+        <h4>Safe Materials</h4>
+        <p>Child-tested and parent-approved</p>
+      </div>
+      <div class="benefit">
+        <div class="benefit-icon">📞</div>
+        <h4>24/7 Support</h4>
+        <p>We're here to help anytime</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials">
+    <h2 style="text-align: center;">What Parents Say</h2>
+    <div class="testimonial">
+      “WonderPlay has brought so much joy to our home. The toys are fun, creative, and screen-free!”
+      <div class="testimonial-name">— Sarah L.</div>
+    </div>
+    <div class="testimonial">
+      “My kids actually *ask* for puzzle time now. Incredible!”
+      <div class="testimonial-name">— James T.</div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    WonderPlay © 2025 — Count on these to get kids off your screens!
+  </footer>
+</body>
+</html>
